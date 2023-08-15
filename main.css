@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    background-color: #D9D9D9;
+    margin: 2rem;
+}
+/* 
+p{
+    font-size: 2rem;
+    padding-bottom:8rem;
+} */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+h3{
+    color: #252422;
+    font-size: 5rem;
+    padding-bottom: 1.5rem;
+    letter-spacing: 1px;
+}
+
+h5{
+    color: #31302d;
+    font-size: 3rem;
+    padding-bottom: 4rem;
+
+}
+
+h4{
+    color: #252422;
+    font-size: 4rem;
+    padding-bottom: 4rem;
+    
+}
+
+.card {
+    background-color: #1ABC9C ;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 1px;
+    border-color: #252422;
+    border-style: outset;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.img-card{
+    width: 100px;
+    height: 100px;
+    margin-bottom:10px ;
+
+}
+
+.img-card img{
+    background-position: center;
+    background-size: cover;
+}
+
+
+.next, .prev {
+    color:#F16C7B;
+    font-size: 3.5rem;
+    width: 75px;
+    height: 75px;
+    max-width: 75px;
+    max-height: 75px;
+    line-height: 75px;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.prev{
+    position: absolute;
+    top:10%;
+    left:14%
+}
+
+.next{
+    
+        position: absolute;
+        top:10%;
+        right:14%;
+    
+}
+
+.btn:hover{
+    background-color: #F16C7B;
+    color: #D9D9D9
+}
+
+.map {
+    padding-top: 3rem;
+   color: #2C3E50 ;
+   padding-bottom: 1rem;
+   font-size: 3.5rem;
+  
+}
+
+.map:hover{
+    color: #F16C7B;
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .card {
+    width: 90%;
+    padding-bottom: 20px;
+    }
+    .prev {
+    position: absolute;
+    top: 5%;
+   
+    }
+    .next{
+        position: absolute;
+        top: 5%;
+      
+    }
+}
