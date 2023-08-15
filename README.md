@@ -14,8 +14,9 @@ Step 3: Navigate to the Server Folder (using terminal CD command)
 cd <REPO_FOLDER>/server
 --------------------------------------
 Step 4: Install Server Dependencies:
-while in the server directory, run this command :
-npm install
+while in the server folder directory, run this command :
+npm init
+npm install cors-anywhere
 --------------------------------------
 Step 5: Start the Server, run this command :
 node server.js
